@@ -1,5 +1,3 @@
-
-
 from flask import Flask, request
 import numpy as np
 import pickle
@@ -78,4 +76,5 @@ def predict_note_file():
 if __name__=='__main__':
   app.run(host='0.0.0.0',port=5000)
     
+
     

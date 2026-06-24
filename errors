@@ -1,6 +1,28 @@
-rvce-mca@rvce-mca-HP-ProDesk-400-G7-Microtower-PC:~/Aquaponic-ai/aquaponic-ai$ docker compose up backend
-[+] up 2/2
- ✔ Container aquaponic-ai-redis-1    Running                                                                                0.0s
- ✔ Container aquaponic-ai-postgres-1 Recreated                                                                              0.1s
-Attaching to backend-1
-Error response from daemon: failed to set up container networking: driver failed programming external connectivity on endpoint aquaponic-ai-postgres-1 (d918a783f476427f3db8065b0e820d1dedcea471c9c3ae53094d572b4a728cfc): Bind for 0.0.0.0:5433 failed: port is already allocated
+rvce-mca@rvce-mca-HP-ProDesk-400-G7-Microtower-PC:~/Aquaponic-ai/aquaponic-ai$ docker compose up -d
+[+] up 5/6
+ ✔ Container aquaponic-ai-redis-1    Healthy                                                                               10.8s
+ ✔ Container aquaponic-ai-postgres-1 Healthy                                                                               10.8s
+ ⠙ Container aquaponic-ai-backend-1  Starting                                                                              10.7s
+ ✔ Container aquaponic-ai-adminer-1  Started                                                                                0.3s
+ ✔ Container aquaponic-ai-frontend-1 Created                                                                                0.0s
+ ✔ Container aquaponic-ai-nginx-1    Created                                                                                0.0s
+Error response from daemon: failed to discover GPU vendor from CDI: no known GPU vendor found
+rvce-mca@rvce-mca-HP-ProDesk-400-G7-Microtower-PC:~/Aquaponic-ai/aquaponic-ai$ docker compose logs backend --tail=50 -f
+^C
+rvce-mca@rvce-mca-HP-ProDesk-400-G7-Microtower-PC:~/Aquaponic-ai/aquaponic-ai$ docker compose logs backend --tail=50
+rvce-mca@rvce-mca-HP-ProDesk-400-G7-Microtower-PC:~/Aquaponic-ai/aquaponic-ai$ # Check all containers are running
+docker compose ps
+
+# Test backend is responding
+curl http://localhost:8000/api/docs
+# Should return HTML for the Swagger docs page
+
+# Test backend health
+curl http://localhost:8000/health
+NAME                      IMAGE                COMMAND                  SERVICE    CREATED              STATUS                        PORTS
+aquaponic-ai-adminer-1    adminer              "entrypoint.sh docke…"   adminer    About a minute ago   Up About a minute             0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp
+aquaponic-ai-postgres-1   postgres:16-alpine   "docker-entrypoint.s…"   postgres   About a minute ago   Up About a minute (healthy)   0.0.0.0:5433->5432/tcp, [::]:5433->5432/tcp
+aquaponic-ai-redis-1      redis:7-alpine       "docker-entrypoint.s…"   redis      About a minute ago   Up About a minute (healthy)   0.0.0.0:6380->6379/tcp, [::]:6380->6379/tcp
+curl: (7) Failed to connect to localhost port 8000 after 0 ms: Couldn't connect to server
+curl: (7) Failed to connect to localhost port 8000 after 0 ms: Couldn't connect to server
+rvce-mca@rvce-mca-HP-ProDesk-400-G7-Microtower-PC:~/Aquaponic-ai/aquaponic-ai$ 

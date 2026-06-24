@@ -1,0 +1,6 @@
+rvce-mca@rvce-mca-HP-ProDesk-400-G7-Microtower-PC:~/Aquaponic-ai/aquaponic-ai$ docker compose up backend
+[+] up 2/2
+ ✔ Container aquaponic-ai-redis-1    Running                                                                                0.0s
+ ✔ Container aquaponic-ai-postgres-1 Recreated                                                                              0.1s
+Attaching to backend-1
+Error response from daemon: failed to set up container networking: driver failed programming external connectivity on endpoint aquaponic-ai-postgres-1 (d918a783f476427f3db8065b0e820d1dedcea471c9c3ae53094d572b4a728cfc): Bind for 0.0.0.0:5433 failed: port is already allocated

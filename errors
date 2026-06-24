@@ -1,13 +1,90 @@
+google-chrome --unsafely-treat-insecure-origin-as-secure=http://192.168.1.235/
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[65783:65810:0624/123718.381883:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[65783:65810:0624/123745.655579:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[65836:65842:0624/123819.023277:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123819.023585:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123819.669062:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123819.670367:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123819.976959:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123819.978590:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123820.071281:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123820.071904:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123821.158498:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123821.159711:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123824.239764:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -101
+[65836:65842:0624/123824.240909:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123824.465026:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123824.466296:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65783:65810:0624/123838.193040:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[65836:65842:0624/123924.141991:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.143343:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.144262:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.145378:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.152176:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.153294:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.155369:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.156499:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.166338:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.167531:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.169846:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.170960:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.177247:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.177548:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.178099:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.178409:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.183568:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.183881:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.184483:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.184748:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.185225:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.185481:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.186036:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.186302:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.186768:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.187093:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.187675:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123924.187964:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123927.056649:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123927.057172:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123927.167830:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123927.168982:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123927.871421:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123927.872673:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123930.715924:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123930.717347:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123934.979649:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123934.980067:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.839814:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.840134:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.846624:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.847120:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.848714:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.849037:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.852870:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.853605:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.854289:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.854590:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.855327:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.855742:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.862393:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.862736:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.913079:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.913450:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.957750:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65836:65842:0624/123942.958061:ERROR:net/socket/ssl_client_socket_impl.cc:944] handshake failed; returned -1, SSL error code 1, net_error -100
+[65783:65810:0624/124021.334609:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[65783:65810:0624/124307.998864:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[65783:65810:0624/124900.236029:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+==============================================================================================
 Failed to load resource: the server responded with a status of 404 (Not Found)
 index-tZpL_LaG.js:450 [TTS] onstart
 index-tZpL_LaG.js:450 [TTS] onend
 (index):1 Access to fetch at 'http://192.168.1.235:8000/api/v1/audio/transcribe' from origin 'http://192.168.1.235' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 :8000/api/v1/audio/transcribe:1  Failed to load resource: net::ERR_FAILED
 (index):1 Access to fetch at 'http://192.168.1.235:8000/api/v1/audio/transcribe' from origin 'http://192.168.1.235' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-index-tZpL_LaG.js:446  POST http://192.168.1.235:8000/api/v1/audio/transcribe net::ERR_FAILED
-se.onstop @ index-tZpL_LaG.js:446
+:8000/api/v1/audio/transcribe:1  Failed to load resource: net::ERR_FAILED
 (index):1 Access to fetch at 'http://192.168.1.235:8000/api/v1/audio/transcribe' from origin 'http://192.168.1.235' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-index-tZpL_LaG.js:446  POST http://192.168.1.235:8000/api/v1/audio/transcribe net::ERR_FAILED
-se.onstop @ index-tZpL_LaG.js:446
+:8000/api/v1/audio/transcribe:1  Failed to load resource: net::ERR_FAILED
 (index):1 Access to fetch at 'http://192.168.1.235:8000/api/v1/audio/transcribe' from origin 'http://192.168.1.235' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-index-tZpL_LaG.js:446  POST http://192.168.1.235:8000/api/v1/audio/transcribe net::ERR_FAILED
+:8000/api/v1/audio/transcribe:1  Failed to load resource: net::ERR_FAILED

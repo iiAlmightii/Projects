@@ -1,7 +1,13 @@
-rvce-mca@rvce-mca-HP-ProDesk-400-G7-Microtower-PC:~/Aquaponic-ai/aquaponic-ai$ grep -A5 "gpu\|GPU\|nvidia\|deploy\|capabilities" docker-compose.yml
-    gpus: all
-    env_file: .env
-    environment:
-      DATABASE_URL: postgresql+asyncpg://aquaponic:${POSTGRES_PASSWORD:-secret}@postgres:5432/aquaponic_db
-      REDIS_URL: redis://redis:6379/0
-      HF_HOME: /app/.cache/huggingface
+Failed to load resource: the server responded with a status of 404 (Not Found)
+index-tZpL_LaG.js:450 [TTS] onstart
+index-tZpL_LaG.js:450 [TTS] onend
+(index):1 Access to fetch at 'http://192.168.1.235:8000/api/v1/audio/transcribe' from origin 'http://192.168.1.235' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+:8000/api/v1/audio/transcribe:1  Failed to load resource: net::ERR_FAILED
+(index):1 Access to fetch at 'http://192.168.1.235:8000/api/v1/audio/transcribe' from origin 'http://192.168.1.235' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+index-tZpL_LaG.js:446  POST http://192.168.1.235:8000/api/v1/audio/transcribe net::ERR_FAILED
+se.onstop @ index-tZpL_LaG.js:446
+(index):1 Access to fetch at 'http://192.168.1.235:8000/api/v1/audio/transcribe' from origin 'http://192.168.1.235' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+index-tZpL_LaG.js:446  POST http://192.168.1.235:8000/api/v1/audio/transcribe net::ERR_FAILED
+se.onstop @ index-tZpL_LaG.js:446
+(index):1 Access to fetch at 'http://192.168.1.235:8000/api/v1/audio/transcribe' from origin 'http://192.168.1.235' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+index-tZpL_LaG.js:446  POST http://192.168.1.235:8000/api/v1/audio/transcribe net::ERR_FAILED
